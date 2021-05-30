@@ -20,3 +20,32 @@ I welcome the Houdini programming community to help as well if they run into an 
 ### Important to know
 All rights belong to their respective owners. I am not professionally affiliated with, nor do I work for Otoy, the Octane core team, or any other related party. 
 I am a web developer with a love for web-oriented processes and 3D rendering.
+
+
+
+
+# INSTRUCTIONS
+
+This node is for batch exporting ORBX files from the Octane ROP in Houdini.
+
+You are going to need:
+
+- Octane (hopefully you have it)
+
+- A mouse that works
+
+- A plan?
+
+### Step 1. 
+Set your Octane ROP. Set your output folder for the ORBX batch exporter to export to.
+
+### Step 2.
+ Set your appropriate scene start and end frames. By default these are $FSTART and $FEND. Feel free to modify these as necessary.
+
+### Step 3. 
+Set your batching interval. Example: 12 on the int slider means it will batch 12 frames together in an orbx. If the scene cannot be divided in increments of 12 evenly, it will auto calculate the necessary final section to export.
+
+### Step 4. 
+Hitting export will export to your orbx folder destination. It will print in the python console the location and number of batches exported.
+
+a video breakdown can be found here: https://vimeo.com/551334253
