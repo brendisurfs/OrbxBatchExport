@@ -1,5 +1,5 @@
 """Made by Brendan Prednis, 2021, at like 12am. 
-Description: this code is to batch export ORBX files from the Octane ROP due to missing functionality."""
+Description: this code is to batch export ORBX files from the Octane ROP."""
 
 import hou
 
